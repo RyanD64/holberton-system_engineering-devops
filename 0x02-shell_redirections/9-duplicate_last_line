@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq -d iacta 9-duplicate_last_line² 
+uniq -d iacta 9-duplicate_last_line

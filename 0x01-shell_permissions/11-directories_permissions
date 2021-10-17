@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ---x--x--x
+sudo find /var/www/html -type d -exec chmod --x--x--x 

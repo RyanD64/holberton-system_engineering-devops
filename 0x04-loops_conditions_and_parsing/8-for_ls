@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# print the content of the current directory in a specific order
+
+LS="$(ls)"
+for i in $LS
+do
+echo "$i" | cut -d - -f2
+done

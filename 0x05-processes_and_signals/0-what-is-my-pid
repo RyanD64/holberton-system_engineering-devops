@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# display the PID of the process
-
-echo $$

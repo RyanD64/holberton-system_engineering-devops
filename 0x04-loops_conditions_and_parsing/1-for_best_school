@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-# print Best School 10 times with for
-for (( counter=0; counter<10; counter++ ))
-do
-echo -n "Best School"
-printf "\n"
-done

@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# display "Best School" 10 times but print "bad luck" at the 4th iteration and "good luck" at the 8th one
+
+while ((counter < 10))
+do
+    if [[ $counter -eq 3 ]];
+    then
+        echo "bad luck"
+    elif [[ $counter -eq 7 ]];
+    then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+    ((counter++))
+done

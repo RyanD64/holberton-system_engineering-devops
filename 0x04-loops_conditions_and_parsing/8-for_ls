@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# display the content of the current directory in a list where the part after the first - is printed
+
+function="$(ls)"
+for i in $function
+do
+    echo "$i" | cut -d - -f2
+done

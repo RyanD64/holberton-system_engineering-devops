@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-# print "to  infinity and beyond" indefinitely"
-
+# print "to infinity and beyond" indefinitely"
 a=1
 while ((a==1))
 do
-        echo "To infinty and beyond"
-        sleep 2
+    echo "To infinty and beyond"
+    sleep 2
 done

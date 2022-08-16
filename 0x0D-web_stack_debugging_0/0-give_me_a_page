@@ -1,3 +1,4 @@
 sudo apt-get -y update
 sudo apt-get -y install apache2
 sudo service apache2 start
+sudo docker exec -ti de0c0a3a7d82 /bin/bash

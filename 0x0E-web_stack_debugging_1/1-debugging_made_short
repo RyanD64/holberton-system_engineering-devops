@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# script that fixes the demanded script short version
+cp /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
+pkill -o nginx

@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Bash script that display information about subdomains.
+myfunc() {
+    echo "The subdomain $1 is a $2 record and points to $3"
+}
+
+if [[ "$#" -eq 1 ]]; 
+then
+arr=("www" "lb-01" "web-01" "web-02")
+    for i in "${arr[@]}"; do
+        rec=$(dig "$i.$1" | grep -A1 'ANSWER SECTION:' | tail -1 | awk '{print $4}')
+        des=$(dig "$i.$1" | grep -A1 'ANSWER SECTION:' | tail -1 | awk '{print $5}')
+        myfunc "$i" "$rec" "$des"
+    done
+elif [[ "$#" -eq 2 ]]; then  
+    rec=$(dig "$2.$1" | grep -A1 'ANSWER SECTION:' | tail -1 | awk '{print $4}')
+    des=$(dig "$2.$1" | grep -A1 'ANSWER SECTION:' | tail -1 | awk '{print $5}')
+    myfunc "$2" "$rec" "$des"
+fi 

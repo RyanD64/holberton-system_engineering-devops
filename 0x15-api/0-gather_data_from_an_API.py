@@ -5,8 +5,8 @@ import sys
 
 if __name__ == "__main__":
     id = sys.argv[1]
-    user = f"https://jsonplaceholder.typicode.com/users{id}"
-    todo = f"https://jsonplaceholder.typicode.com/users{id}/todos"
+    user = f"https://jsonplaceholder.typicode.com/users/{id}"
+    todo = f"https://jsonplaceholder.typicode.com/users/{id}/todos"
 
     users = requests.get(user).json()
     TODO = requests.get(todo).json()
@@ -24,4 +24,4 @@ if __name__ == "__main__":
     response = "Employee {} is done with tasks({}/{}):"
     print(response.format(users.get("name"), num_task_done, all))
     for task in done:
-        print(f"\t {task}")
+        print("\t {}".format(task))

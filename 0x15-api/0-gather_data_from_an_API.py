@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""script that returns information about a givn employee"""
+"""script that return information for a given employee"""
+
 import requests
 import sys
 

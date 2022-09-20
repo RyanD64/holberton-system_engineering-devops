@@ -6,7 +6,8 @@ import sys
 
 if __name__ == "__main__":
     id = sys.argv[1]
-    user = requests.get("https://jsonplaceholder.typicode.com/users/{}").format(id)
+    user = requests.get("https://jsonplaceholder.typicode.com/users/{}"
+                         .format(id))
     todo = requests.get("https://jsonplaceholder.typicode.com/todos")
     name = user.json().get("username")
     file = id + ".csv"

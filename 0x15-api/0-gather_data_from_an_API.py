@@ -6,8 +6,8 @@ import sys
 
 if __name__ == "__main__":
     id = sys.argv[1]
-    user = f"https://jsonplaceholder.typicode.com/users/{id}"
-    todo = f"https://jsonplaceholder.typicode.com/users/{id}/todos"
+    user = "https://jsonplaceholder.typicode.com/users/{}".format(id)
+    todo = "https://jsonplaceholder.typicode.com/users/{}/todos".format(id)
 
     users = requests.get(user).json()
     TODO = requests.get(todo).json()

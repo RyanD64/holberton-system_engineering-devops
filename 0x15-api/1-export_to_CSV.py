@@ -12,7 +12,7 @@ if __name__ == "__main__":
     name = user.json().get("username")
     file = id + ".csv"
 
-    with open('file', 'w') as result:
+    with open(file, 'w') as result:
         write = csv.writer(result,
                            delimiter=",",
                            quotechar='"',

@@ -12,7 +12,7 @@ Two: always make back-ups
 Here's the recapitlulation of the incident:
 
 20h00: logging in my computer
-20h03: checking the websites(and seeing the loadnig problem)
+<br 20h03: checking the websites(and seeing the loadnig problem)>
 20h05: checking the task monitor
 20h10: trying to free memory in order to make loading time quicker
 20h20: trying solutions on the internet and browser entensions
@@ -22,5 +22,5 @@ Here's the recapitlulation of the incident:
 22h12: thourough verification to ensure that no errors are left
 22h25: releasing of the new load balancer
 22h30: return to normal
-  
+
 In the hope that no one else reading this will do the same mistakes

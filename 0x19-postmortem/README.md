@@ -9,4 +9,18 @@ The consequences were 2 hours wasted due to the making of a new load balancer an
 One: always be careful about what you're doing
 Two: always make back-ups
 
+Here's the recapitlulation of the incident:
+
+20h00: logging in my computer
+20h03: checking the websites(and seeing the loadnig problem)
+20h05: checking the task monitor
+20h10: trying to free memory in order to make loading time quicker
+20h20: trying solutions on the internet and browser entensions
+20h32: the three trials to connect to the load balancer(all fails)
+20h44: beginning of the creation of a new load balancer
+21h22: beginning of the testing of the new load balancer
+22h12: thourough verification to ensure that no errors are left
+22h25: releasing of the new load balancer
+22h30: return to normal
+  
 In the hope that no one else reading this will do the same mistakes

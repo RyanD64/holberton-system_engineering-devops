@@ -13,14 +13,14 @@ Here's the recapitlulation of the incident:
 
 20h00: logging in my computer
 <br> 20h03: checking the websites(and seeing the loadnig problem)
-20h05: checking the task monitor
-20h10: trying to free memory in order to make loading time quicker
-20h20: trying solutions on the internet and browser entensions
-20h32: the three trials to connect to the load balancer(all fails)
-20h44: beginning of the creation of a new load balancer
-21h22: beginning of the testing of the new load balancer
-22h12: thourough verification to ensure that no errors are left
-22h25: releasing of the new load balancer
-22h30: return to normal
+<br>20h05: checking the task monitor
+<br>20h10: trying to free memory in order to make loading time quicker
+<br>20h20: trying solutions on the internet and browser entensions
+<br>20h32: the three trials to connect to the load balancer(all fails)
+<br>20h44: beginning of the creation of a new load balancer
+<br>21h22: beginning of the testing of the new load balancer
+<br>22h12: thourough verification to ensure that no errors are left
+<br>22h25: releasing of the new load balancer
+<br>22h30: return to normal
 
 In the hope that no one else reading this will do the same mistakes

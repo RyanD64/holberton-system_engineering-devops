@@ -12,7 +12,7 @@ Two: always make back-ups
 Here's the recapitlulation of the incident:
 
 20h00: logging in my computer
-<br 20h03: checking the websites(and seeing the loadnig problem)>
+<br> 20h03: checking the websites(and seeing the loadnig problem)
 20h05: checking the task monitor
 20h10: trying to free memory in order to make loading time quicker
 20h20: trying solutions on the internet and browser entensions

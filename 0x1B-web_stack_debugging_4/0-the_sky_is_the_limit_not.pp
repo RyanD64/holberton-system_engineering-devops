@@ -1,6 +1,9 @@
 # fixing all failed requests
-exec{ 'file limit':
-  onlyif   => 'test -e /etc/default/nginx',
-  command  => 'sed -i "5s/[0-9]\+/$( ulimit -n )" /etc/default/nginx; service nginx restart',
-  provider => shell,
+exec { 'fixer':
+    command => 'sed -i "s/15/1024" /etc/default/nginx',
+    path    => '/bin',
+}
+service { 'nginx':
+    ensure    => running,
+    subscribe => exec['fixer'],
 }
